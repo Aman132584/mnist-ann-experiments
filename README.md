@@ -87,6 +87,13 @@ Output Layer  →  Dense(10, activation='softmax')
 
 ## 📊 Results Output
 
+**Accuracy Comparison:**
+
+![Accuracy Comparison](results/result-1-ann.PNG)
+
+**Loss Comparison:**
+
+![Loss Comparison](results/result-2-ann.PNG)
 
 ---
 
@@ -113,8 +120,8 @@ ANN-hyperparameter-experiment
 ├── main.ipynb                     # COLAB notebook
 ├── requirements.txt               # All dependencies with versions
 ├── results/
-│   ├── accuracy_comparison.png    # Saved accuracy plot
-│   └── loss_comparison.png        # Saved loss plot
+│   ├── accuracy    
+│   └── loss       
 └── README.md                      # Project documentation
 ```
 ---
